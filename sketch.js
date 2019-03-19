@@ -51,10 +51,6 @@ function setup() {
   dSlider = createSlider(1, 20, 8, 1);
   nSlider = createSlider(1, 20, 5, 1);
   weightSlider = createSlider(1, 8, 1, 1);
-
-  dSlider.input(draw);
-  nSlider.input(draw);
-  weightSlider.input(draw);
 }
 
 // Continuously draws rose
